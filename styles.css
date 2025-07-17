@@ -73,17 +73,9 @@ body {
     margin-bottom: 0.5rem;
 }
 
-/* Explore button styling */
-.category-card .btn {
-    border-radius: 20px;
-    font-weight: 500;
-    transition: all 0.3s ease;
-    opacity: 0.9;
-}
-
-.category-card .btn:hover {
-    opacity: 1;
-    transform: scale(1.05);
+.card-img-overlay {
+  background-color: rgba(0, 0, 128, 0.4); /* semi-transparent blue */
+  color: white;
 }
 
 /* Container spacing */

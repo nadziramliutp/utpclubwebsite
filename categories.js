@@ -1,6 +1,6 @@
 async function loadCategories() {
   try {
-    const res = await fetch('../categories.json'); // adjust if needed
+    const res = await fetch('categories.json'); // adjust if needed
     const categories = await res.json();
 
     const container = document.getElementById('category-container');
@@ -13,7 +13,6 @@ async function loadCategories() {
             <div class="card-img-overlay d-flex flex-column justify-content-end" style="background: rgba(0, 0, 128, 0.4);">
               <h5 class="card-title">${cat.title}</h5>
               <p class="card-text">${cat.description}</p>
-              <p class="card-text"><small>${cat.updatedAt}</small></p>
             </div>
           </div>
         </div>

@@ -1,0 +1,32 @@
+[
+  {
+    "title": "Sports & Recreations",
+    "description": "Stay active with fun activities.",
+    "imageUrl": "category_pic/sportsrecreation.jpg"
+  },
+    {
+        "title": "Arts & Culture",
+        "description": "Unleash your creativity",
+        "imageUrl": "category_pic/sportsrecreation.jpg"
+    },
+    {
+        "title": "Leadership & Development",
+        "description": "Maximize your potential",
+        "imageUrl": "category_pic/sportsrecreation.jpg"
+    },
+    {
+        "title": "Martial Arts",
+        "description": "Defense yourselves",
+        "imageUrl": "category_pic/sportsrecreation.jpg"
+    },
+    {
+        "title": "Media & Entrepreneurship",
+        "description": "Explore the world",
+        "imageUrl": "category_pic/sportsrecreation.jpg"
+    },
+    {
+        "title": "Student Support Unit",
+        "description": "Make campus better place",
+        "imageUrl": "category_pic/sportsrecreation.jpg"
+    }
+]

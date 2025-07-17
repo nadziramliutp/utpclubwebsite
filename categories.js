@@ -30,11 +30,11 @@ function createCategoryCard(category) {
         <div class="card category-card h-100" style="background-image: url('category_pic/${category.imageURL}');">
             <div class="card-overlay">
                 <div class="card-body d-flex flex-column justify-content-end text-white">
-                    <h5 class="card-title fw-bold">${category.name}</h5>
+                    <h5 class="card-title fw-bold">${category.title}</h5>
                     <p class="card-text">${category.description}</p>
-                    <button class="btn btn-light btn-sm mt-2" onclick="exploreCategory('${category.name}')">
+                    //<button class="btn btn-light btn-sm mt-2" onclick="exploreCategory('${category.title}')">
                         Explore
-                    </button>
+                    //</button>
                 </div>
             </div>
         </div>
